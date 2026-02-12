@@ -1,0 +1,84 @@
+version: 1
+updated_at: "canon-v1"
+characters:
+  - id: C001
+    name: 陈磊
+    role: 男主
+    age:
+      present_line: 18
+      memory_line: 中年
+    status: 离婚现场被逼交店后重返18岁
+    core_traits:
+      - 狠
+      - 稳
+      - 擅长社会博弈
+    capabilities:
+      - 中年记忆与社会经验保留
+      - 规则压制
+      - 现场控局
+    goal_short_term: 保住浴皇阁控制权并止损现金流
+    goal_long_term: 三线做大并完成对儿子的强制掰正
+    conflicts:
+      - 与前妻林晓晓的夺店与舆论战
+      - 与儿子陈浩的立场对抗
+    system_binding: 浴皇大帝系统
+
+  - id: C002
+    name: 陈浩
+    role: 儿子
+    age: 20
+    status: 大二在读，前期站队母亲与许甜甜
+    catchphrase:
+      - 体面点
+      - 为你好
+    core_traits:
+      - 情绪化
+      - 好面子
+      - 易受话术引导
+    arc_direction: 从舔绿茶到被迫认错，再到接受浴皇试炼
+    conflicts:
+      - 与父亲陈磊的权威冲突
+      - 被许甜甜操控的信息茧房
+
+  - id: C003
+    name: 林晓晓
+    role: 前妻
+    status: 出轨并推动离婚夺店
+    weapons:
+      - 舆论施压
+      - 亲情绑架
+      - 合同陷阱
+    objective: 夺取经营成果并转移风险
+    conflicts:
+      - 与陈磊正面对冲
+
+  - id: C004
+    name: 许甜甜
+    role: 绿茶关键对手
+    status: 操控陈浩站队的外部诱因
+    weapons:
+      - 装弱
+      - 录音截图
+      - 小作文
+    objective: 借情绪议题放大陈家裂痕
+
+  - id: C005
+    name: 刺头经理（占位）
+    role: 澡堂阵营阶段对手
+    status: 对新秩序不服，煽动内部对抗
+    function: 提供Day4规则压服场景
+
+  - id: C006
+    name: 老炮老客（占位）
+    role: 澡堂阵营关键资源位
+    status: 表面普通老客，实为渠道与关系节点
+    function: 对应伏笔FP003
+
+groups:
+  bathhouse_camp:
+    members:
+      - 前台
+      - 经理
+      - 技师
+      - 老客
+    narrative_function: 提供市井烟火、规则江湖与当众结算舞台
